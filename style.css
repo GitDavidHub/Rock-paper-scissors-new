@@ -1,0 +1,144 @@
+* {
+    outlin: solid red 1px; 
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+    
+}
+
+body {
+    background: linear-gradient(to bottom right, rgb(231, 77, 77), rgb(55, 55, 239));
+    display: flex;
+    flex-direction:column;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    min-height: 100vh;
+    
+}
+
+.title , .score-board , .result , #action-message , .score-board , .result {
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.title {
+    
+    height: 2em;
+    text-align: center;
+    margin-top: 1em;
+    font-family: fantasy;
+    font-weight: 900;
+    font-size: 50px;
+    
+}
+
+#action-message {
+    height: 3em;
+    text-align: center;
+    foont-family: fantasy;
+    font-weight: 900;
+    font-size: 40px;
+    
+
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    height: 15em;
+  
+   
+}
+
+.choice {
+    height: 200px;
+    width: 200px;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 1em;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    -o-transition-duration: 1s;
+    
+    
+}
+.choice:hover {
+    cursor: pointer;
+    background: rgba(39, 178, 242, 0.069);
+}
+
+.score-board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.8em;
+    margin-top: 40px;
+    margin-left:300px;
+    margin-right:300px;
+    
+    border: 10px solid rgb(59, 42, 112);
+    border-radius: 0%;
+    font-size: 2em;
+}
+
+
+.result {
+   text-align: center;
+   margin-top: 0em;
+   foont-family:fantasy;
+   font-size: 3em;
+   font-weight: bolder;
+   
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(7, 1, 1);
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    color:azure;
+    
+}
+
+.badge {
+    foont-family: fantasy;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+img {
+   
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(12, 56, 159);
+    border-radius: 50%;
+    object-fit: contain;
+    
+    margin-top: 25px ;
+    margin-left: 25px;
+    mix-blend-mode: multiply;
+    
+
+}
+
+.green-glow {
+    background-color: rgba(56, 217, 56, 0.72);
+}
+
+.red-glow {
+    background-color: rgba(234, 16, 16, 0.72);
+}
+
+.gray-glow {
+    background-color: rgba(83, 90, 107, 0.72);
+}
